@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImmoWertV zum Hören (Tempo 0,85)</title>
+    <link>https://koerner94.github.io/immowertv-hoerbuch/</link>
+    <atom:link href="https://koerner94.github.io/immowertv-hoerbuch/feed-085.xml" rel="self" type="application/rss+xml"/>
+    <language>de-de</language>
+    <description>Lern-Hörbuch zur Immobilienwertermittlungsverordnung für die Fahrt. 17 Folgen entlang der Verordnung, jede mit Beispielen, Merksätzen und einer Abfrage am Ende. Grundlage ist der amtliche Text auf gesetze-im-internet.de. Diese Fassung laeuft mit Tempo 0,85, die Tonhoehe bleibt gleich.</description>
+    <itunes:author>André Steinker</itunes:author>
+    <itunes:summary>Lern-Hörbuch zur Immobilienwertermittlungsverordnung für die Fahrt. 17 Folgen entlang der Verordnung, jede mit Beispielen, Merksätzen und einer Abfrage am Ende. Grundlage ist der amtliche Text auf gesetze-im-internet.de. Diese Fassung laeuft mit Tempo 0,85, die Tonhoehe bleibt gleich.</itunes:summary>
+    <itunes:image href="https://koerner94.github.io/immowertv-hoerbuch/cover.png"/>
+    <image><url>https://koerner94.github.io/immowertv-hoerbuch/cover.png</url><title>ImmoWertV zum Hören (Tempo 0,85)</title><link>https://koerner94.github.io/immowertv-hoerbuch/</link></image>
+    <itunes:category text="Education"><itunes:category text="Courses"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <lastBuildDate>Mon, 07 Sep 2026 05:04:53 +0000</lastBuildDate>
+    <item>
+      <title>Folge 17: Übergang, Inkrafttreten und der große Prüfungs-Sprint (Tempo 0,85)</title>
+      <itunes:title>Folge 17: Übergang, Inkrafttreten und der große Prüfungs-Sprint (Tempo 0,85)</itunes:title>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 17: Übergang, Inkrafttreten und der große Prüfungs-Sprint (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-17-085.mp3" length="8136950" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-17-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:53 +0000</pubDate>
+      <itunes:duration>16:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 16: Erbbaurecht und Erbbaugrundstück (Tempo 0,85)</title>
+      <itunes:title>Folge 16: Erbbaurecht und Erbbaugrundstück (Tempo 0,85)</itunes:title>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 16: Erbbaurecht und Erbbaugrundstück (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-16-085.mp3" length="6934075" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-16-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:48 +0000</pubDate>
+      <itunes:duration>14:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 15: Grundstücksbezogene Rechte und Belastungen (Tempo 0,85)</title>
+      <itunes:title>Folge 15: Grundstücksbezogene Rechte und Belastungen (Tempo 0,85)</itunes:title>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 15: Grundstücksbezogene Rechte und Belastungen (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-15-085.mp3" length="6582867" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-15-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:43 +0000</pubDate>
+      <itunes:duration>13:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 14: Bodenwertermittlung (Tempo 0,85)</title>
+      <itunes:title>Folge 14: Bodenwertermittlung (Tempo 0,85)</itunes:title>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 14: Bodenwertermittlung (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-14-085.mp3" length="6802677" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-14-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:39 +0000</pubDate>
+      <itunes:duration>14:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 13: Sachwertverfahren II: Alterswertminderung, Sachwertfaktor und ein Rechenbeispiel (Tempo 0,85)</title>
+      <itunes:title>Folge 13: Sachwertverfahren II: Alterswertminderung, Sachwertfaktor und ein Rechenbeispiel (Tempo 0,85)</itunes:title>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 13: Sachwertverfahren II: Alterswertminderung, Sachwertfaktor und ein Rechenbeispiel (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-13-085.mp3" length="7091898" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-13-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:34 +0000</pubDate>
+      <itunes:duration>14:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 12: Sachwertverfahren I: Grundlagen, Herstellungskosten und NHK 2010 (Tempo 0,85)</title>
+      <itunes:title>Folge 12: Sachwertverfahren I: Grundlagen, Herstellungskosten und NHK 2010 (Tempo 0,85)</itunes:title>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 12: Sachwertverfahren I: Grundlagen, Herstellungskosten und NHK 2010 (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-12-085.mp3" length="6850463" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-12-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:29 +0000</pubDate>
+      <itunes:duration>14:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 11: Ertragswertverfahren III: Liegenschaftszinssatz, Barwertfaktor und ein Rechenbeispiel (Tempo 0,85)</title>
+      <itunes:title>Folge 11: Ertragswertverfahren III: Liegenschaftszinssatz, Barwertfaktor und ein Rechenbeispiel (Tempo 0,85)</itunes:title>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 11: Ertragswertverfahren III: Liegenschaftszinssatz, Barwertfaktor und ein Rechenbeispiel (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-11-085.mp3" length="7182905" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-11-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:25 +0000</pubDate>
+      <itunes:duration>14:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 10: Ertragswertverfahren II: Rohertrag, Reinertrag und Bewirtschaftungskosten (Tempo 0,85)</title>
+      <itunes:title>Folge 10: Ertragswertverfahren II: Rohertrag, Reinertrag und Bewirtschaftungskosten (Tempo 0,85)</itunes:title>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 10: Ertragswertverfahren II: Rohertrag, Reinertrag und Bewirtschaftungskosten (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-10-085.mp3" length="6918467" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-10-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:19 +0000</pubDate>
+      <itunes:duration>14:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 09: Ertragswertverfahren I: Grundlagen und die drei Varianten (Tempo 0,85)</title>
+      <itunes:title>Folge 09: Ertragswertverfahren I: Grundlagen und die drei Varianten (Tempo 0,85)</itunes:title>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 09: Ertragswertverfahren I: Grundlagen und die drei Varianten (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-09-085.mp3" length="6736021" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-09-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:14 +0000</pubDate>
+      <itunes:duration>13:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 08: Das Vergleichswertverfahren (Tempo 0,85)</title>
+      <itunes:title>Folge 08: Das Vergleichswertverfahren (Tempo 0,85)</itunes:title>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 08: Das Vergleichswertverfahren (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-08-085.mp3" length="6757089" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-08-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:10 +0000</pubDate>
+      <itunes:duration>13:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 07: Liegenschaftszinssätze, Sachwertfaktoren und Erbbaurechtsdaten (Tempo 0,85)</title>
+      <itunes:title>Folge 07: Liegenschaftszinssätze, Sachwertfaktoren und Erbbaurechtsdaten (Tempo 0,85)</itunes:title>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 07: Liegenschaftszinssätze, Sachwertfaktoren und Erbbaurechtsdaten (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-07-085.mp3" length="7000445" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-07-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:05 +0000</pubDate>
+      <itunes:duration>14:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 06: Indexreihen, Umrechnungskoeffizienten und Vergleichsfaktoren (Tempo 0,85)</title>
+      <itunes:title>Folge 06: Indexreihen, Umrechnungskoeffizienten und Vergleichsfaktoren (Tempo 0,85)</itunes:title>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 06: Indexreihen, Umrechnungskoeffizienten und Vergleichsfaktoren (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-06-085.mp3" length="6997930" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-06-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:04:00 +0000</pubDate>
+      <itunes:duration>14:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 05: Erforderliche Daten und Bodenrichtwerte (Tempo 0,85)</title>
+      <itunes:title>Folge 05: Erforderliche Daten und Bodenrichtwerte (Tempo 0,85)</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 05: Erforderliche Daten und Bodenrichtwerte (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-05-085.mp3" length="6831584" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-05-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:03:55 +0000</pubDate>
+      <itunes:duration>14:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 04: Allgemeine Grundsätze II: Daten, Modellkonformität und künftige Änderungen (Tempo 0,85)</title>
+      <itunes:title>Folge 04: Allgemeine Grundsätze II: Daten, Modellkonformität und künftige Änderungen (Tempo 0,85)</itunes:title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 04: Allgemeine Grundsätze II: Daten, Modellkonformität und künftige Änderungen (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-04-085.mp3" length="6293830" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-04-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:03:51 +0000</pubDate>
+      <itunes:duration>12:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 03: Allgemeine Grundsätze I: Verfahren, Marktanpassung und besondere objektspezifische Merkmale (Tempo 0,85)</title>
+      <itunes:title>Folge 03: Allgemeine Grundsätze I: Verfahren, Marktanpassung und besondere objektspezifische Merkmale (Tempo 0,85)</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 03: Allgemeine Grundsätze I: Verfahren, Marktanpassung und besondere objektspezifische Merkmale (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-03-085.mp3" length="6834825" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-03-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:03:47 +0000</pubDate>
+      <itunes:duration>14:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 02: Grundstücksmerkmale: Entwicklungszustand, Alter und Nutzungsdauer (Tempo 0,85)</title>
+      <itunes:title>Folge 02: Grundstücksmerkmale: Entwicklungszustand, Alter und Nutzungsdauer (Tempo 0,85)</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 02: Grundstücksmerkmale: Entwicklungszustand, Alter und Nutzungsdauer (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-02-085.mp3" length="6627887" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-02-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:03:42 +0000</pubDate>
+      <itunes:duration>13:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Folge 01: Was die Immo-Wert-V ist und was sie regelt (Tempo 0,85)</title>
+      <itunes:title>Folge 01: Was die Immo-Wert-V ist und was sie regelt (Tempo 0,85)</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Folge 01: Was die Immo-Wert-V ist und was sie regelt (Tempo 0,85). Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/folge-01-085.mp3" length="6459653" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-folge-01-085</guid>
+      <pubDate>Mon, 07 Sep 2026 05:03:38 +0000</pubDate>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ImmoWertV zum Hören</title>
+<link rel="alternate" type="application/rss+xml" title="ImmoWertV zum Hören" href="feed.xml">
+<style>
+:root { --grund:#f6f7f9; --karte:#fff; --schrift:#14263f; --leise:#667; --akzent:#d4a017; }
+@media (prefers-color-scheme: dark) {
+  :root { --grund:#11151c; --karte:#1b212b; --schrift:#e8ecf2; --leise:#9aa5b5; }
+}
+* { box-sizing:border-box; }
+body { font-family:system-ui,'Segoe UI',Arial,sans-serif; max-width:760px; margin:0 auto; padding:1.5rem 1rem 4rem;
+  background:var(--grund); color:var(--schrift); line-height:1.5; }
+h1 { margin:0 0 .2rem; font-size:1.7rem; }
+h2 { margin:2.4rem 0 .3rem; font-size:1.25rem; }
+.sub { color:var(--leise); margin:0 0 1rem; }
+img.cover { width:130px; border-radius:14px; float:right; margin:0 0 1rem 1rem; }
+.tempo { position:sticky; top:0; z-index:5; background:var(--karte); border-radius:14px; padding:.9rem 1rem;
+  margin:0 0 1.2rem; box-shadow:0 2px 10px rgba(0,0,0,.10); }
+.tempo b { display:block; margin-bottom:.5rem; font-size:.95rem; }
+.knoepfe { display:flex; flex-wrap:wrap; gap:.4rem; }
+button { font:inherit; padding:.45rem .9rem; border-radius:999px; border:1px solid rgba(128,128,128,.35);
+  background:transparent; color:inherit; cursor:pointer; }
+button:hover { border-color:var(--akzent); }
+button[aria-pressed="true"] { background:var(--akzent); border-color:var(--akzent); color:#14263f; font-weight:600; }
+.hinweis { color:var(--leise); font-size:.85rem; margin-top:.55rem; }
+ul { list-style:none; padding:0; margin:0; }
+li { background:var(--karte); border-radius:14px; padding:.9rem 1rem; margin:.7rem 0; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.kopf { display:flex; justify-content:space-between; gap:1rem; align-items:baseline; }
+.t { font-weight:600; }
+.d { color:var(--leise); font-size:.85rem; white-space:nowrap; }
+audio { width:100%; margin-top:.55rem; }
+.dl { margin-top:.4rem; font-size:.82rem; color:var(--leise); }
+.dl a { color:inherit; }
+table { border-collapse:collapse; width:100%; font-size:.85rem; }
+td { padding:.35rem .5rem .35rem 0; vertical-align:top; border-top:1px solid rgba(128,128,128,.2); }
+code { background:rgba(128,128,128,.15); padding:.12rem .4rem; border-radius:5px; word-break:break-all; }
+.block { background:var(--karte); border-radius:14px; padding:1rem; margin:1.8rem 0 0; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+</style></head>
+<body>
+<img class="cover" src="cover.png" alt="Titelbild">
+<h1>ImmoWertV zum Hören</h1>
+<p class="sub">Zwei Reihen zum Lernen im Auto. Die Verstehen-Reihe geht die Verordnung der Reihe nach durch. Der Merktrainer nimmt einen einzigen Paragrafen und prägt ihn mit einem Merkbild ein.</p>
+
+<div class="tempo">
+  <b>Abspieltempo</b>
+  <div class="knoepfe" id="tempo">
+    <button data-v="0.85">0,85</button>
+    <button data-v="0.9">0,90</button>
+    <button data-v="0.95">0,95</button>
+    <button data-v="1" aria-pressed="true">normal</button>
+    <button data-v="1.1">1,10</button>
+    <button data-v="1.25">1,25</button>
+  </div>
+  <p class="hinweis">Gilt sofort für alle Folgen auf dieser Seite, die Tonhöhe bleibt gleich. Deine Wahl wird gemerkt.</p>
+</div>
+<h2>ImmoWertV zum Hören</h2>
+<p class="sub">Lern-Hörbuch zur Immobilienwertermittlungsverordnung für die Fahrt. 17 Folgen entlang der Verordnung, jede mit Beispielen, Merksätzen und einer Abfrage am Ende. Grundlage ist der amtliche Text auf gesetze-im-internet.de.</p>
+<ul>
+    <li>
+      <div class="kopf"><span class="t">Folge 01: Was die Immo-Wert-V ist und was sie regelt</span><span class="d" data-basis="680">11:20 min</span></div>
+      <audio controls preload="none" src="folge-01.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-01.mp3" download>normal</a>
+        &middot; <a href="folge-01-095.mp3" download>0,95</a>
+        &middot; <a href="folge-01-090.mp3" download>0,90</a>
+        &middot; <a href="folge-01-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 02: Grundstücksmerkmale: Entwicklungszustand, Alter und Nutzungsdauer</span><span class="d" data-basis="697">11:37 min</span></div>
+      <audio controls preload="none" src="folge-02.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-02.mp3" download>normal</a>
+        &middot; <a href="folge-02-095.mp3" download>0,95</a>
+        &middot; <a href="folge-02-090.mp3" download>0,90</a>
+        &middot; <a href="folge-02-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 03: Allgemeine Grundsätze I: Verfahren, Marktanpassung und besondere objektspezifische Merkmale</span><span class="d" data-basis="719">11:59 min</span></div>
+      <audio controls preload="none" src="folge-03.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-03.mp3" download>normal</a>
+        &middot; <a href="folge-03-095.mp3" download>0,95</a>
+        &middot; <a href="folge-03-090.mp3" download>0,90</a>
+        &middot; <a href="folge-03-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 04: Allgemeine Grundsätze II: Daten, Modellkonformität und künftige Änderungen</span><span class="d" data-basis="662">11:02 min</span></div>
+      <audio controls preload="none" src="folge-04.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-04.mp3" download>normal</a>
+        &middot; <a href="folge-04-095.mp3" download>0,95</a>
+        &middot; <a href="folge-04-090.mp3" download>0,90</a>
+        &middot; <a href="folge-04-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 05: Erforderliche Daten und Bodenrichtwerte</span><span class="d" data-basis="719">11:59 min</span></div>
+      <audio controls preload="none" src="folge-05.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-05.mp3" download>normal</a>
+        &middot; <a href="folge-05-095.mp3" download>0,95</a>
+        &middot; <a href="folge-05-090.mp3" download>0,90</a>
+        &middot; <a href="folge-05-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 06: Indexreihen, Umrechnungskoeffizienten und Vergleichsfaktoren</span><span class="d" data-basis="737">12:17 min</span></div>
+      <audio controls preload="none" src="folge-06.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-06.mp3" download>normal</a>
+        &middot; <a href="folge-06-095.mp3" download>0,95</a>
+        &middot; <a href="folge-06-090.mp3" download>0,90</a>
+        &middot; <a href="folge-06-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 07: Liegenschaftszinssätze, Sachwertfaktoren und Erbbaurechtsdaten</span><span class="d" data-basis="737">12:17 min</span></div>
+      <audio controls preload="none" src="folge-07.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-07.mp3" download>normal</a>
+        &middot; <a href="folge-07-095.mp3" download>0,95</a>
+        &middot; <a href="folge-07-090.mp3" download>0,90</a>
+        &middot; <a href="folge-07-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 08: Das Vergleichswertverfahren</span><span class="d" data-basis="711">11:51 min</span></div>
+      <audio controls preload="none" src="folge-08.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-08.mp3" download>normal</a>
+        &middot; <a href="folge-08-095.mp3" download>0,95</a>
+        &middot; <a href="folge-08-090.mp3" download>0,90</a>
+        &middot; <a href="folge-08-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 09: Ertragswertverfahren I: Grundlagen und die drei Varianten</span><span class="d" data-basis="709">11:49 min</span></div>
+      <audio controls preload="none" src="folge-09.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-09.mp3" download>normal</a>
+        &middot; <a href="folge-09-095.mp3" download>0,95</a>
+        &middot; <a href="folge-09-090.mp3" download>0,90</a>
+        &middot; <a href="folge-09-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 10: Ertragswertverfahren II: Rohertrag, Reinertrag und Bewirtschaftungskosten</span><span class="d" data-basis="728">12:08 min</span></div>
+      <audio controls preload="none" src="folge-10.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-10.mp3" download>normal</a>
+        &middot; <a href="folge-10-095.mp3" download>0,95</a>
+        &middot; <a href="folge-10-090.mp3" download>0,90</a>
+        &middot; <a href="folge-10-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 11: Ertragswertverfahren III: Liegenschaftszinssatz, Barwertfaktor und ein Rechenbeispiel</span><span class="d" data-basis="756">12:36 min</span></div>
+      <audio controls preload="none" src="folge-11.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-11.mp3" download>normal</a>
+        &middot; <a href="folge-11-095.mp3" download>0,95</a>
+        &middot; <a href="folge-11-090.mp3" download>0,90</a>
+        &middot; <a href="folge-11-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 12: Sachwertverfahren I: Grundlagen, Herstellungskosten und NHK 2010</span><span class="d" data-basis="721">12:01 min</span></div>
+      <audio controls preload="none" src="folge-12.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-12.mp3" download>normal</a>
+        &middot; <a href="folge-12-095.mp3" download>0,95</a>
+        &middot; <a href="folge-12-090.mp3" download>0,90</a>
+        &middot; <a href="folge-12-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 13: Sachwertverfahren II: Alterswertminderung, Sachwertfaktor und ein Rechenbeispiel</span><span class="d" data-basis="747">12:27 min</span></div>
+      <audio controls preload="none" src="folge-13.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-13.mp3" download>normal</a>
+        &middot; <a href="folge-13-095.mp3" download>0,95</a>
+        &middot; <a href="folge-13-090.mp3" download>0,90</a>
+        &middot; <a href="folge-13-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 14: Bodenwertermittlung</span><span class="d" data-basis="716">11:56 min</span></div>
+      <audio controls preload="none" src="folge-14.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-14.mp3" download>normal</a>
+        &middot; <a href="folge-14-095.mp3" download>0,95</a>
+        &middot; <a href="folge-14-090.mp3" download>0,90</a>
+        &middot; <a href="folge-14-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 15: Grundstücksbezogene Rechte und Belastungen</span><span class="d" data-basis="693">11:33 min</span></div>
+      <audio controls preload="none" src="folge-15.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-15.mp3" download>normal</a>
+        &middot; <a href="folge-15-095.mp3" download>0,95</a>
+        &middot; <a href="folge-15-090.mp3" download>0,90</a>
+        &middot; <a href="folge-15-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 16: Erbbaurecht und Erbbaugrundstück</span><span class="d" data-basis="730">12:10 min</span></div>
+      <audio controls preload="none" src="folge-16.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-16.mp3" download>normal</a>
+        &middot; <a href="folge-16-095.mp3" download>0,95</a>
+        &middot; <a href="folge-16-090.mp3" download>0,90</a>
+        &middot; <a href="folge-16-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 17: Übergang, Inkrafttreten und der große Prüfungs-Sprint</span><span class="d" data-basis="858">14:18 min</span></div>
+      <audio controls preload="none" src="folge-17.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="folge-17.mp3" download>normal</a>
+        &middot; <a href="folge-17-095.mp3" download>0,95</a>
+        &middot; <a href="folge-17-090.mp3" download>0,90</a>
+        &middot; <a href="folge-17-085.mp3" download>0,85</a></div>
+    </li>
+</ul>
+<h2>ImmoWertV Merktrainer</h2>
+<p class="sub">Merktrainer zum Auswendiglernen der Fundstellen: ein Paragraf je Folge, ein Merkbild nach dem Major-System und eine Abfrage in vier Richtungen. Zum Hören beim Autofahren. Grundlage ist der amtliche Text auf gesetze-im-internet.de.</p>
+<ul>
+    <li>
+      <div class="kopf"><span class="t">Folge 01: Paragraf 40: Rose</span><span class="d" data-basis="340">5:40 min</span></div>
+      <audio controls preload="none" src="trainer-01.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-01.mp3" download>normal</a>
+        &middot; <a href="trainer-01-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-01-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-01-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 02: Paragraf 6: Schuh</span><span class="d" data-basis="355">5:55 min</span></div>
+      <audio controls preload="none" src="trainer-02.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-02.mp3" download>normal</a>
+        &middot; <a href="trainer-02-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-02-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-02-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 03: Paragraf 8: Fee</span><span class="d" data-basis="360">6:00 min</span></div>
+      <audio controls preload="none" src="trainer-03.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-03.mp3" download>normal</a>
+        &middot; <a href="trainer-03-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-03-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-03-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 04: Paragraf 27: Nike</span><span class="d" data-basis="361">6:01 min</span></div>
+      <audio controls preload="none" src="trainer-04.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-04.mp3" download>normal</a>
+        &middot; <a href="trainer-04-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-04-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-04-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 05: Paragraf 31: Motte</span><span class="d" data-basis="359">5:59 min</span></div>
+      <audio controls preload="none" src="trainer-05.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-05.mp3" download>normal</a>
+        &middot; <a href="trainer-05-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-05-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-05-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 06: Paragraf 34: Meer</span><span class="d" data-basis="364">6:04 min</span></div>
+      <audio controls preload="none" src="trainer-06.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-06.mp3" download>normal</a>
+        &middot; <a href="trainer-06-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-06-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-06-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 07: Paragraf 28: Neffe</span><span class="d" data-basis="356">5:56 min</span></div>
+      <audio controls preload="none" src="trainer-07.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-07.mp3" download>normal</a>
+        &middot; <a href="trainer-07-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-07-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-07-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 08: Paragraf 35: Mühle</span><span class="d" data-basis="356">5:56 min</span></div>
+      <audio controls preload="none" src="trainer-08.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-08.mp3" download>normal</a>
+        &middot; <a href="trainer-08-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-08-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-08-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 09: Paragraf 38: Möwe</span><span class="d" data-basis="344">5:44 min</span></div>
+      <audio controls preload="none" src="trainer-09.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-09.mp3" download>normal</a>
+        &middot; <a href="trainer-09-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-09-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-09-085.mp3" download>0,85</a></div>
+    </li>
+    <li>
+      <div class="kopf"><span class="t">Folge 10: Paragraf 21: Note</span><span class="d" data-basis="338">5:38 min</span></div>
+      <audio controls preload="none" src="trainer-10.mp3"></audio>
+      <div class="dl">Herunterladen: <a href="trainer-10.mp3" download>normal</a>
+        &middot; <a href="trainer-10-095.mp3" download>0,95</a>
+        &middot; <a href="trainer-10-090.mp3" download>0,90</a>
+        &middot; <a href="trainer-10-085.mp3" download>0,85</a></div>
+    </li>
+</ul>
+<div class="block">
+  <b>In der Podcast-App abonnieren</b>
+  <p class="hinweis" style="margin:.4rem 0 .7rem">In Apple Podcasts „Sendung per URL folgen“, in Pocket Casts und AntennaPod „RSS-Feed hinzufügen“.
+  Die meisten Apps können selbst langsamer abspielen. Nur wenn deine App keine feinen Stufen kennt, nimm direkt einen der langsamen Feeds.</p>
+  <table>
+      <tr><td>ImmoWertV zum Hören</td><td>normales Tempo</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed.xml</code></td></tr>
+      <tr><td>ImmoWertV zum Hören</td><td>Tempo 0,95</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-095.xml</code></td></tr>
+      <tr><td>ImmoWertV zum Hören</td><td>Tempo 0,90</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-090.xml</code></td></tr>
+      <tr><td>ImmoWertV zum Hören</td><td>Tempo 0,85</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-085.xml</code></td></tr>
+      <tr><td>ImmoWertV Merktrainer</td><td>normales Tempo</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-trainer.xml</code></td></tr>
+      <tr><td>ImmoWertV Merktrainer</td><td>Tempo 0,95</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-trainer-095.xml</code></td></tr>
+      <tr><td>ImmoWertV Merktrainer</td><td>Tempo 0,90</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-trainer-090.xml</code></td></tr>
+      <tr><td>ImmoWertV Merktrainer</td><td>Tempo 0,85</td><td><code>https://koerner94.github.io/immowertv-hoerbuch/feed-trainer-085.xml</code></td></tr>
+  </table>
+</div>
+
+<script>
+(function () {
+  var knoepfe = Array.prototype.slice.call(document.querySelectorAll('#tempo button'));
+  var spieler = Array.prototype.slice.call(document.querySelectorAll('audio'));
+  var dauern = Array.prototype.slice.call(document.querySelectorAll('.d'));
+  function zeit(s) {
+    s = Math.round(s);
+    var m = Math.floor(s / 60), r = s % 60;
+    return m + ':' + (r < 10 ? '0' : '') + r;
+  }
+  function setze(v, merken) {
+    spieler.forEach(function (a) { a.playbackRate = v; a.defaultPlaybackRate = v; });
+    knoepfe.forEach(function (b) { b.setAttribute('aria-pressed', String(Number(b.dataset.v) === v)); });
+    dauern.forEach(function (d) { d.textContent = zeit(Number(d.dataset.basis) / v) + ' min'; });
+    if (merken) { try { localStorage.setItem('tempo', String(v)); } catch (e) {} }
+  }
+  knoepfe.forEach(function (b) {
+    b.addEventListener('click', function () { setze(Number(b.dataset.v), true); });
+  });
+  var gemerkt = 1;
+  try { gemerkt = Number(localStorage.getItem('tempo')) || 1; } catch (e) {}
+  setze(gemerkt, false);
+  spieler.forEach(function (a) {
+    a.addEventListener('loadedmetadata', function () {
+      var akt = knoepfe.filter(function (b) { return b.getAttribute('aria-pressed') === 'true'; })[0];
+      a.playbackRate = akt ? Number(akt.dataset.v) : 1;
+    });
+  });
+})();
+</script>
+</body></html>
