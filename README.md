@@ -11,4 +11,4 @@ Die Feed-Adressen stehen auf der Startseite.
 Grundlage ist ausschließlich der amtliche Verordnungstext von gesetze-im-internet.de.
 Die Sprechtexte sind eigene Formulierungen, die Sprachausgabe ist maschinell erzeugt.
 
-Dieses Verzeichnis wird von einem Skript erzeugt und bei jeder Veröffentlichung vollständig ersetzt.
+Dieses Verzeichnis wird von einem Skript erzeugt und bei jeder Veröffentlichung abgeglichen.
