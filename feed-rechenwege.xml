@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImmoWertV Rechenwege</title>
+    <link>https://koerner94.github.io/immowertv-hoerbuch/</link>
+    <atom:link href="https://koerner94.github.io/immowertv-hoerbuch/feed-rechenwege.xml" rel="self" type="application/rss+xml"/>
+    <language>de-de</language>
+    <description>Die vier Rechenwege Schritt für Schritt: Bodenwert, Vergleichswert, Ertragswert und Sachwert. Jede Folge rechnet ein vollständiges Beispiel vor und benutzt dieselben Merkbilder wie der Merktrainer. Zum Mitrechnen gibt es die App unter der Adresse dieser Seite, Unterseite rechnen.</description>
+    <itunes:author>André Steinker</itunes:author>
+    <itunes:summary>Die vier Rechenwege Schritt für Schritt: Bodenwert, Vergleichswert, Ertragswert und Sachwert. Jede Folge rechnet ein vollständiges Beispiel vor und benutzt dieselben Merkbilder wie der Merktrainer. Zum Mitrechnen gibt es die App unter der Adresse dieser Seite, Unterseite rechnen.</itunes:summary>
+    <itunes:image href="https://koerner94.github.io/immowertv-hoerbuch/cover.png"/>
+    <image><url>https://koerner94.github.io/immowertv-hoerbuch/cover.png</url><title>ImmoWertV Rechenwege</title><link>https://koerner94.github.io/immowertv-hoerbuch/</link></image>
+    <itunes:category text="Education"><itunes:category text="Courses"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <lastBuildDate>Mon, 21 Sep 2026 06:05:02 +0000</lastBuildDate>
+    <item>
+      <title>Rechenweg 05: Das Sachwertverfahren</title>
+      <itunes:title>Rechenweg 05: Das Sachwertverfahren</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Rechenweg 05: Das Sachwertverfahren. Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/rechenwege-05.mp3" length="6847921" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-rechenwege-05</guid>
+      <pubDate>Mon, 21 Sep 2026 06:05:02 +0000</pubDate>
+      <itunes:duration>14:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Rechenweg 04: Das Ertragswertverfahren</title>
+      <itunes:title>Rechenweg 04: Das Ertragswertverfahren</itunes:title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Rechenweg 04: Das Ertragswertverfahren. Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/rechenwege-04.mp3" length="6797094" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-rechenwege-04</guid>
+      <pubDate>Mon, 21 Sep 2026 06:00:04 +0000</pubDate>
+      <itunes:duration>14:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Rechenweg 03: Das Vergleichswertverfahren</title>
+      <itunes:title>Rechenweg 03: Das Vergleichswertverfahren</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Rechenweg 03: Das Vergleichswertverfahren. Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/rechenwege-03.mp3" length="5278391" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-rechenwege-03</guid>
+      <pubDate>Mon, 21 Sep 2026 05:56:08 +0000</pubDate>
+      <itunes:duration>10:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Rechenweg 02: Der Bodenwert</title>
+      <itunes:title>Rechenweg 02: Der Bodenwert</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Rechenweg 02: Der Bodenwert. Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/rechenwege-02.mp3" length="4960397" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-rechenwege-02</guid>
+      <pubDate>Mon, 21 Sep 2026 05:52:02 +0000</pubDate>
+      <itunes:duration>10:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Rechenweg 01: Der Rahmen – drei Schritte, drei Schuhe</title>
+      <itunes:title>Rechenweg 01: Der Rahmen – drei Schritte, drei Schuhe</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description>Rechenweg 01: Der Rahmen – drei Schritte, drei Schuhe. Lernfolge zur Immobilienwertermittlungsverordnung.</description>
+      <enclosure url="https://koerner94.github.io/immowertv-hoerbuch/rechenwege-01.mp3" length="4569057" type="audio/mpeg"/>
+      <guid isPermaLink="false">immowertv-rechenwege-01</guid>
+      <pubDate>Mon, 21 Sep 2026 05:49:06 +0000</pubDate>
+      <itunes:duration>9:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+{
+  "name": "ImmoWertV Rechenwege",
+  "short_name": "Rechenwege",
+  "description": "Rechenweg-Trainer zur Immobilienwertermittlungsverordnung: Bodenwert, Vergleichswert, Ertragswert und Sachwert Schritt fuer Schritt.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14263f",
+  "theme_color": "#14263f",
+  "lang": "de",
+  "icons": [
+    { "src": "cover.png", "sizes": "1400x1400", "type": "image/png", "purpose": "any" }
+  ]
+}

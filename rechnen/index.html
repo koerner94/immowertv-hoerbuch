@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ImmoWertV Rechenwege</title>
+<meta name="description" content="Rechenweg-Trainer zur Immobilienwertermittlungsverordnung: Bodenwert, Vergleichswert, Ertragswert und Sachwert Schritt fuer Schritt.">
+<meta name="theme-color" content="#14263f">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="cover.png">
+<link rel="apple-touch-icon" href="cover.png">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<header id="kopf">
+  <button id="zurueck" class="zurueck" hidden aria-label="zurueck">&#8592;</button>
+  <div class="kopftext">
+    <div id="kopftitel">ImmoWertV Rechenwege</div>
+    <div id="kopfsub">Rechnen, verstehen, behalten</div>
+  </div>
+</header>
+
+<main id="buehne"></main>
+
+<nav id="leiste">
+  <button data-ziel="start" class="an"><span>&#9635;</span>Start</button>
+  <button data-ziel="abfrage"><span>&#9673;</span>Abfrage<em id="faellig"></em></button>
+  <button data-ziel="karte"><span>&#9776;</span>Karte</button>
+  <button data-ziel="bilder"><span>&#9788;</span>Bilder</button>
+</nav>
+
+<script src="daten.js"></script>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('sw.js').catch(function () {});
+  });
+}
+</script>
+</body>
+</html>
