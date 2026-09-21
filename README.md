@@ -6,9 +6,9 @@ Privater Lern-Podcast zur Immobilienwertermittlungsverordnung, zwei Reihen:
 - **ImmoWertV Merktrainer** – ein Paragraf je Folge, mit Merkbild und Abfrage, zum Auswendiglernen der Fundstellen.
 - **ImmoWertV Rechenwege** – die vier Rechenwege Schritt für Schritt, mit vollständig vorgerechnetem Beispiel.
 
-Dazu die Web-App **Rechenwege** unter `/rechnen/`: derselbe Stoff zum Mitrechnen, mit
-verblassenden Musterlösungen, Abfrage-Karten und verteiltem Wiederholen. Sie läuft ohne Netz
-und speichert nichts ausser dem eigenen Lernstand im Browser des Geräts.
+Dazu der **SV-Trainer** unter https://koerner94.github.io/sv-trainer/ : derselbe Stoff zum
+Mitrechnen und Abfragen, zusammen mit dem Prüfungskatalog. Die frühere Adresse `/rechnen/`
+leitet dorthin weiter.
 
 Jede Reihe gibt es zusätzlich in den Tempo-Stufen 0,85, 0,90 und 0,95.
 Die Feed-Adressen stehen auf der Startseite.

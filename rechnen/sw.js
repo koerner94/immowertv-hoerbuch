@@ -1,25 +1,13 @@
-/* Damit die App auch ohne Netz laeuft, etwa im Zug oder im Keller eines Objekts.
-   Bei jeder Aenderung die Nummer hochzaehlen, sonst behaelt das Handy die alte Fassung. */
-const LAGER = 'rechenwege-3';
-const DATEIEN = ['./', 'index.html', 'stil.css', 'daten.js', 'app.js', 'manifest.json', 'cover.png'];
-
-self.addEventListener('install', e => {
-  e.waitUntil(caches.open(LAGER).then(c => c.addAll(DATEIEN)).then(() => self.skipWaiting()));
-});
-
+/* Selbstabbau. Diese Fassung ersetzt den alten Offline-Speicher der umgezogenen App:
+   Sie loescht alle Lager, meldet sich selbst ab und laedt offene Fenster neu, damit
+   die Bruecken-Seite erscheint. Danach gibt es hier keinen Arbeiter mehr. */
+self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== LAGER).map(x => caches.delete(x)))).then(() => self.clients.claim()));
-});
-
-self.addEventListener('fetch', e => {
-  if (e.request.method !== 'GET') return;
-  e.respondWith(
-    fetch(e.request).then(a => {
-      if (a && a.status === 200 && a.type === 'basic') {
-        const kopie = a.clone();
-        caches.open(LAGER).then(c => c.put(e.request, kopie));
-      }
-      return a;
-    }).catch(() => caches.match(e.request).then(a => a || caches.match('index.html')))
-  );
+  e.waitUntil((async () => {
+    for (const k of await caches.keys()) await caches.delete(k);
+    await self.registration.unregister();
+    for (const c of await self.clients.matchAll({ type: 'window' })) {
+      try { c.navigate(c.url); } catch (err) {}
+    }
+  })());
 });

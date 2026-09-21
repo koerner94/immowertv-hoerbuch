@@ -2,42 +2,75 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>ImmoWertV Rechenwege</title>
-<meta name="description" content="Rechenweg-Trainer zur Immobilienwertermittlungsverordnung: Bodenwert, Vergleichswert, Ertragswert und Sachwert Schritt fuer Schritt.">
-<meta name="theme-color" content="#14263f">
-<link rel="manifest" href="manifest.json">
-<link rel="icon" href="cover.png">
-<link rel="apple-touch-icon" href="cover.png">
-<link rel="stylesheet" href="stil.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Umgezogen: SV-Trainer</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root { --grund:#f4f6f9; --karte:#fff; --schrift:#14263f; --leise:#66738a; --akzent:#d4a017; }
+@media (prefers-color-scheme: dark) {
+  :root { --grund:#10141b; --karte:#1a2029; --schrift:#e8ecf2; --leise:#94a1b4; }
+}
+* { box-sizing:border-box; }
+body { font-family:system-ui,'Segoe UI',Arial,sans-serif; background:var(--grund); color:var(--schrift);
+  margin:0; padding:2.5rem 1.2rem; line-height:1.55; display:flex; justify-content:center; }
+.karte { background:var(--karte); border-radius:16px; padding:1.6rem 1.4rem; max-width:34rem; width:100%;
+  box-shadow:0 2px 14px rgba(0,0,0,.12); }
+h1 { font-size:1.35rem; margin:0 0 .6rem; }
+p { margin:.6rem 0; }
+.leise { color:var(--leise); font-size:.88rem; }
+a.knopf { display:block; text-align:center; margin-top:1.3rem; padding:.8rem 1rem; border-radius:10px;
+  background:var(--akzent); color:#14263f; font-weight:650; text-decoration:none; }
+#stand { font-size:.82rem; color:var(--leise); margin-top:1rem; }
+</style>
 </head>
 <body>
-
-<header id="kopf">
-  <button id="zurueck" class="zurueck" hidden aria-label="zurueck">&#8592;</button>
-  <div class="kopftext">
-    <div id="kopftitel">ImmoWertV Rechenwege</div>
-    <div id="kopfsub">Rechnen, verstehen, behalten</div>
-  </div>
-</header>
-
-<main id="buehne"></main>
-
-<nav id="leiste">
-  <button data-ziel="start" class="an"><span>&#9635;</span>Start</button>
-  <button data-ziel="abfrage"><span>&#9673;</span>Abfrage<em id="faellig"></em></button>
-  <button data-ziel="karte"><span>&#9776;</span>Karte</button>
-  <button data-ziel="bilder"><span>&#9788;</span>Bilder</button>
-</nav>
-
-<script src="daten.js"></script>
-<script src="app.js"></script>
+<div class="karte">
+  <h1>Der Trainer ist umgezogen</h1>
+  <p>Die <b>Rechenwege</b> sind in den <b>SV-Trainer</b> umgezogen und liegen dort neben dem Prüfungskatalog. Deine erreichten Stufen und Karten kommen mit.</p>
+  <p class="leise">Beides steckt jetzt in einer App: der Prüfungskatalog, die Rechenwege der ImmoWertV
+  und die Prüfungssimulation. Ein Link für alles.</p>
+  <a class="knopf" id="weiter" href="https://koerner94.github.io/sv-trainer/">Zum SV-Trainer</a>
+  <p id="stand">Lernstand wird übernommen …</p>
+  <p class="leise">Lege dir die neue Adresse auf den Startbildschirm und entferne das alte Symbol.
+  Diese Seite bleibt vorerst stehen, damit alte Lesezeichen weiter funktionieren.</p>
+</div>
 <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function () {
-    navigator.serviceWorker.register('sw.js').catch(function () {});
-  });
-}
+(function () {
+  var ALT = 'immowertv-rechenwege-v1';
+  var QUELLE = 'rechenwege';
+  var NEU = 'https://koerner94.github.io/sv-trainer/';
+  var stand = document.getElementById('stand');
+  var ziel = NEU;
+
+  function packe() {
+    var roh = null;
+    try { roh = localStorage.getItem(ALT); } catch (e) { return null; }
+    if (!roh) return null;
+    var s;
+    try { s = JSON.parse(roh); } catch (e) { return null; }
+    // Nur das mitnehmen, was der Trainer wirklich einliest.
+    var schlank = { planer: s.planer || {}, stufen: s.stufen || {} };
+    var paket = JSON.stringify({ quelle: QUELLE, stand: schlank });
+    var b64 = btoa(unescape(encodeURIComponent(paket)))
+      .replace(/\+/g, '-').replace(/\//g, '_');
+    if (b64.length > 60000) {        // Notbremse: zu lang für eine Adresse
+      delete schlank.reviewsByDay;
+      paket = JSON.stringify({ quelle: QUELLE, stand: schlank });
+      b64 = btoa(unescape(encodeURIComponent(paket))).replace(/\+/g, '-').replace(/\//g, '_');
+    }
+    return b64.length > 60000 ? null : b64;
+  }
+
+  var p = packe();
+  if (p) {
+    ziel = NEU + '#umzug=' + encodeURIComponent(p);
+    stand.textContent = 'Dein bisheriger Lernstand wird mitgenommen. Er bleibt dabei auf diesem Gerät.';
+  } else {
+    stand.textContent = 'Auf diesem Gerät liegt hier kein Lernstand. Es geht ohne weiter.';
+  }
+  document.getElementById('weiter').href = ziel;
+  setTimeout(function () { location.replace(ziel); }, 2500);
+})();
 </script>
 </body>
 </html>
